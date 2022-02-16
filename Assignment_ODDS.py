@@ -106,8 +106,4 @@ while True :
         ans = function_F(ans)
         break
     else:
-<<<<<<< HEAD
         print("The number must be between 1 - 20.")
-=======
-        print("The number must be between 1 - 20.")
->>>>>>> 214081f1488f3d76941c2d7098c321ffd5049f41
