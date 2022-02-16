@@ -83,7 +83,7 @@ def function_E(ans_D):
             word = word + i
 
     print("Function E: "+ans_E)
-    return ans_E
+    return int(ans_E)
 
 
 def function_F(ans_E):
@@ -103,7 +103,7 @@ while True :
         ans = function_C(ans)
         ans = function_D(ans)
         ans = function_E(ans)
-        ans = function_F(ans)
+        number_int = function_F(ans)
         break
     else:
         print("The number must be between 1 - 20.")
