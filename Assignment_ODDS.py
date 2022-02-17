@@ -83,11 +83,13 @@ def function_E(ans_D):
             word = word + i
 
     print("Function E: "+ans_E)
-    return int(ans_E)
+    return ans_E
 
 
 def function_F(ans_E):
-    print("Function F: "+''.join(filter(str.isdigit, ans_E)))
+    ans_F = ''.join(filter(str.isdigit, ans_E))
+    print("Function F: "+ans_F)
+    return int(ans_F)
 
 while True :
     number = input("Enter a number between 1 - 20: ")
